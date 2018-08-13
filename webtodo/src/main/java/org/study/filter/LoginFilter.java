@@ -48,7 +48,7 @@ public class LoginFilter implements Filter{
 			arg2.doFilter(arg0, arg1);
 		} else {
 			arg0.setAttribute("orgpath", path);
-			arg0.setAttribute("error", "·Î±×ÀÎÇØÁÖ¼¼¿ä.");
+			arg0.setAttribute("error", "ë¡œê·¸ì¸í•´ì£¼ì„¸ìš”.");
 			arg0.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(arg0, arg1);
 		}
 	}
