@@ -13,7 +13,7 @@ function idchk() {
 	if($("#userid").val() != ""){
 	$.ajax({
 		type:"post",
-		url:"http://localhost:8088/webtodo/join",
+		url:"http://192.168.0.174:8080/webtodo/join",
 		//정확히는 컨텍스트 패스를 구해야한다.
 		data: query,
 		success:function(data){
